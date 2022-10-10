@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Systrail Solutions</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" href="./assets/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="./assets/css/slick.css">
+<link rel="stylesheet" href="./assets/css/slick-theme.css">
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="icon" href="./assets/logo/favicon-new.png" type="images">
+</head>
+
+<body>
+<div class="koolconsole-wrapper">
+<section class="home header-sticky header-v1 hide-topbar-mobile">
+    <header id="masthead" class="site-header">
+        <div class="header-main clearfix">
+            <div class="container">
+                <div class="row menu-row">
+                    <div class="site-logo col-lg-3 col-md-3 col-sm-8">
+                        <a href="home.html" class="logo"><img src="./assets/logo/logo-new-removebg.png" alt="GRD" class="logo"></a>
+                    </div>
+                    <div class='mobile-togle'>
+                        <a href="#" class="navigationMenu" id="navigationMenu" onclick="navOpenFunction()"> <i class="fas fa-bars"></i></a>
+                    </div>
+                    <div class="header-content col-lg-9 col-md-9 col-xs-12 pull-right">
+                        <!-- top bar -->
+                        <div id="topbar" class="topbar ">
+                            <div class="topbar-widgets clearfix">
+                                <div class=" widget">
+                                    <ul class="socials">
+                                        <li> <a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li> <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+                                        <li> <a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li> <a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
+                                        <li> <a href="javascript:void(0);"><i class="fab fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="widget">
+                                    <div class="float-left"><span class="svg-icon"><i class="fas fa-phone-alt flaticon-call-answer"></i></span></div>
+                                    <div class="float-right">
+                                        <div>Call Us</div>
+                                        <div>(91) 91794 72691</div>
+                                    </div>
+                                </div> -->
+                                <div class="widget">
+                                    <div class="float-left"><span class="svg-icon"><i class="flaticon-timer fas fa-envelope"></i></span></div>
+                                    <div class="float-right">
+                                        <div class="title">Contact Us</div>
+                                        <div class="sub-title">sales@systrail.xyz</div>
+                                    </div>
+                                </div>
+                                <div class="menu-block-right" style="width: 151.5px; right: -150.5px;"></div>
+                            </div>
+                        </div>
+                        <!-- top bar -->
+                        <div class="primary-mobile-nav site-menu navigatiList" id="navigatiList">
+                            <nav id=" site-navigation" class="main-nav primary-nav nav">
+                                <a href="#" class="close-toggle closeBtn" id="closeBtn" onclick="navCloseFunction()"> <i class="fas fa-times"></i></a>
+                                <ul class="menu">
+                                    <li class="has-children">
+                                        <a href="home.html" class="">Home</a> 
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="about-us.html" class="">About Us</a> 
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="services.html" class="">Services</a> 
+                                    </li>
+                                    <li class="has-children active">
+                                        <a href="contact-us.html" class="">Contact Us</a> 
+                                    </li>
+                                    <!-- <li class="has-children mobile-info"> -->
+                                        <!-- <a href="#" class="title-gray sm-title d-flex mobile-info"></span>Call Us:<br>(91) 91794 72691</a> -->
+                                    <!-- </li> -->
+                                    <li class="has-children mobile-info">
+                                        <a href="#" class="title-gray sm-title d-flex mobile-info"></span>Contact Us:<br>sales@systrail.xyz</a> 
+                                    </li> 
+                                    <li class="has-children  widget bobile-social-icon">
+                                        <span class="socials">
+                                            <a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+                                            <a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="javascript:void(0);"><i class="fab fa-instagram"></i></a>
+                                            <a href="javascript:void(0);"><i class="fab fa-github"></i></a>
+                                        </span>
+                                    </li> 
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+</section> 
+<section>
+    <div class="kool-contact pt-3 koolbg pb-3" style="background-image: url('./assets/images/about-2.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-12 pt-3" style="padding-top: 3rem!important;">
+                    <div class="shadow p-4">
+                        <div class="sm-title">
+                            Get In<span class="title-gray">Touch</span>
+
+                        </div>
+                        <div class="md-title mt-2 mb-2">
+                            We Provide Best Services. <br>Need Help?
+                        </div>
+                        <p class="xs-title mt-4 pb-4">
+                            Come and visit our quarters or simply send us an email anytime you want. We are open to all suggestions from our audience.
+                        </p>
+
+                        <div class="kool-form">
+                            <p style="text-left: center;color: green;font-size: 18px;" id="successMessage"></p>
+                            <br>
+                            <form action="" method="post" enctype="multipart/form-data" id="contactUsForm">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1" class="xs-title mb-2">Your Name</label>
+                                            <input type="text" class="form-control xs-title" aria-describedby="emailHelp" placeholder="Enter Name" name="name" id="contactName"> 
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="" class="xs-title mb-2">Your Contact No.</label>
+                                            <input type="text" class="form-control xs-title" aria-describedby="emailHelp" placeholder="Enter Contact No." name="contact" id="contactPhone"> 
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="" class="xs-title mb-2">Your Email</label>
+                                            <input type="email" class="form-control xs-title" aria-describedby="emailHelp" placeholder="Enter Email" name="email" id="contactEmail">
+
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <label for="" class="xs-title mb-2">Your Message</label>
+                                            <textarea class="form-control xs-title" rows="1" name="message" placeholder="Enter Message" id="contactMessage"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="submit" name="submit" class="btn  btn-outline-secondary custom-btn" tabindex="-1"> Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="row mt-5">
+                        <!-- <div class="col-lg-12 col-md-12 col-sm-12"> -->
+                            <!-- <div class="about-services"> -->
+                                <!-- <div class="element-icon-box d-flex flex-wrap"> -->
+                                    <!-- <i class="fas fa-headset title-gray mr-3 mr-2 f-20"></i> -->
+
+
+                                    <!-- <h5 class='koolconsole-title f-20'>Phone Number</h5> -->
+                                <!-- </div> -->
+
+                                <!-- <div class="element-content-box"> -->
+
+                                    <!-- <p class='mt-2 mb-3 title-gray xs-title'> (91) 91794 72691  (91) 97549 09476</p> -->
+
+                                <!-- </div> -->
+                            <!-- </div> -->
+                        <!-- </div> -->
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="about-services">
+                                <div class="element-icon-box d-flex flex-wrap">
+                                    <i class="fas fa-at title-gray mr-2 f-20"></i>
+
+
+                                    <h5 class='koolconsole-title f-20'>Email Address</h5>
+                                </div>
+
+                                <div class="element-content-box">
+
+                                    <p class='mt-2 mb-3 title-gray xs-title'> hr@systrail.xyz </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="about-services">
+                                <div class="element-icon-box d-flex flex-wrap">
+                                    <i class="fas fa-map-marker-alt title-gray mr-2 f-20"></i>
+
+
+                                    <h5 class='koolconsole-title mr-3 f-20'>Our Location</h5>
+                                </div>
+
+                                <div class="element-content-box">
+
+                                    <p class='mt-2 mb-3 title-gray xs-title'> 39 Dheeraj Nagar MR9 Road Indore(MP) India 452010</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="about-services">
+                                <div class="element-icon-box d-flex flex-wrap">
+                                    <i class="fab fa-skype title-gray mr-3 f-20"></i>
+
+
+                                    <h5 class='koolconsole-title f-20'>Skype Address</h5>
+                                </div>
+
+                                <div class="element-content-box">
+
+                                    <p class='mt-2 mb-3 title-gray xs-title'> sales@systrail.xyz</p>
+
+                                </div>
+
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="kool-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="footer-info pt-3">
+                        <div class="kool-copy-right text-white pb-2">
+                            Copyright 2022 © Systrail Solutions. All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+                <div class='col-lg-6 col-md-6 col-sm-6'>
+                    <div class='kool-footer-social-info'>
+                        <ul class="socal-icon d-flex pt-3 pb-3 justify-content-lg-end">
+                            <li><a href="#" target="_blank"class="text-white"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"class="text-white"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank" class="text-white"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"  target="_blank" class="text-white"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" target="_blank" class="text-white"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/all.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/custom.js"></script> 
+
+</body>
+
+</html>
